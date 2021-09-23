@@ -1,4 +1,6 @@
 .main-content{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 24px 22px 0 24px;
 }
@@ -11,10 +13,16 @@ aside{
 
 
 .filter-header{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 10px 0 12px 0;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size: 16px;
 
 	&__title{
@@ -31,11 +39,17 @@ aside{
 
 .filter-item{
 	max-width: 224px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin: 0 auto;
 	background-color: $light-gray;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 4.5px 12px 6px 16px;
 	border-radius: 2px;
 	margin-top: 4px;
@@ -62,9 +76,15 @@ aside{
 	line-height: 24px;
 
 	&__header{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		padding: 10px 0 12px 0;
 
 		&--img{
@@ -82,8 +102,12 @@ aside{
 
 	&__check-box{
 		padding: 8px 0 7px 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 		font-size: 14px;
 
 		&--inp{
@@ -120,6 +144,8 @@ aside{
 	border-radius: 4px;
 	margin-top: 9px;
 	display: block;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
 	transition: .3s;
 	max-width: 224px;
 	font-size: 14px;

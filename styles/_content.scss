@@ -14,16 +14,24 @@ main{
 
 
 .add-products{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	border-width: 0 0 1px 0;
 	border-style: solid;
 	border-color: $border-color;
 	padding: 24px 24px 22px;
 
 	.add-prod-amount{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 
 
 		.add-prod-title{
@@ -32,6 +40,8 @@ main{
 		}
 
 		.add-prod-selection{
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
 		}
 	}
@@ -64,8 +74,12 @@ main{
 
 
 .select-amount{
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 7px 10px 10px 12px;
 	border: 1px solid $border-color;
 	border-radius: 6px;

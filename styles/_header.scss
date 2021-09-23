@@ -4,8 +4,12 @@ header{
 	position: absolute;
 	right:0;
 	top:0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 0 10px;
 	border-width: 0 0 1px 0;
 	border-color: $border-color;
@@ -14,9 +18,13 @@ header{
 
 
 .header-nav{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 27px 0 28px 14px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	
 
 	&__title{
@@ -43,8 +51,12 @@ header{
 
 
 .header-user{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 4px 12px 0 0;
 
 	&__notification{
@@ -57,8 +69,12 @@ header{
 
 
 	&__user{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		align-items: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 
 		.header-user__name{
 			padding-right: 16px;

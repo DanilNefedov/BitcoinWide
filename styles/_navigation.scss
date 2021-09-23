@@ -24,18 +24,27 @@ nav{
 
 
 .nav-menu__link{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 15px 0 17.5px 16px;
 	color:$gray-font;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
 	transition: .3s;
 	position: relative;
 	line-height: 23px;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 
 	&--img{
 		padding-right: 24px;
-		filter: contrast(1%);
+		-webkit-filter: contrast(1%);
+		        filter: contrast(1%);
 		opacity: .65;
+		-webkit-transition: .3s;
+		-o-transition: .3s;
 		transition: .3s;
 	}
 
@@ -45,7 +54,8 @@ nav{
 		border-radius: 4px;
 
 		.nav-menu__link--img{
-			filter: none;
+			-webkit-filter: none;
+			        filter: none;
 			opacity: 1;
 		}
 	}
