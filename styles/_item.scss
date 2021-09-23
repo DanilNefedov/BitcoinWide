@@ -1,0 +1,157 @@
+.item{
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 265px);
+
+	&-search{
+		display: flex;
+		justify-content: space-between;
+		
+
+		&-inp{
+			display: flex;
+			align-items: center;
+		}
+
+		&-sort{
+			background-color: $white;
+			position: relative;
+			color: $gray-font;
+			font-size: 16px;
+
+			&:before{
+				content: '';
+				background: url(../img/sort.svg) no-repeat;
+				width: 18px;
+				height: 18px;
+				position: absolute;
+				right: 40px;
+			}
+		}
+	}
+}
+.form{
+	display: flex;
+	border-radius: 4px;
+	border: 1px solid $border-color;
+	margin-right: 12px;
+
+	&__search{
+		padding-left: 20px;
+		width: 360px;
+		background-color: $light-gray;
+		line-height: 20px;
+		border-width: 0 1px 0 0;
+		border-style: solid;
+		border-color: $border-color;
+	}
+
+	&__bnt{
+		height: 38px;
+	}
+}
+.btn-form{
+	width: 40px;
+	height: 40px;
+	background-color: $white;
+	padding-top: 3px;
+}
+
+.btn-multi{
+	border: 1px solid $border-color;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.item-list{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 16px;
+}
+.item-list-elem{
+	border: 1px solid $border-color;
+	padding: 44px 18px 20px 20px;
+	width: 32%;
+	margin: 0 0 16px 16px;
+	border-radius: 6px;
+
+	&:nth-of-type(1){
+		margin-left: 0;
+	}
+	&:nth-of-type(4){
+		margin-left: 0;
+	}
+
+	&__img{
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 38px;
+		width: 119px;
+	}
+	&__header{
+		max-width: 224px;
+		font-size: 14px; 
+		margin-bottom: 6px;
+		line-height: 21px;
+	}
+	&__text{
+		font-size: 12px;
+		color:$gray-font;
+		line-height: 18px;
+	}
+
+
+	&__calc{
+		display: flex;
+		max-width: 224px;
+		margin-top: 16px;
+
+		&--min{
+			border-radius:4px 0 0 4px;
+		}
+		&--plus{
+			border-radius:0 4px 4px 0;
+		}
+		&--value{
+			width: 72px;
+			text-align: center;
+			background-color: $light-gray;
+			border: solid $border-color;
+			border-width: 1px 0 1px 0;
+		}
+
+		&--add{
+			background-color: $green;
+			border-radius: 4px;
+			width: 60px;
+			display: inline-block;
+			margin-left: 12px;
+			color:$white;
+		}
+	}
+}
+
+.btn-item{
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: $white;
+	border: 1px solid $border-color;
+}
+
+.delete{
+	background: url(../img/delete.svg) 50% 50% no-repeat;
+	background-color: $white;
+	width: 60px;
+	height: 40px;
+	border: 1px solid $border-color;
+}

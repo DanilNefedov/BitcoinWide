@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LogoType</title> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"> 
+	<style>*{padding:0;margin:0;border:0}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}:active,:focus{outline:0}aside,header,nav{display:block}body,html{width:100%;height:100%;font-size:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:Inter;font-weight:500;font-style:normal;color:#363740}button,input{font-family:inherit}input::-ms-clear{display:none}button::-moz-focus-inner{padding:0;border:0}a,a:visited{text-decoration:none}a{color:#363740}ul li{list-style:none}img{max-width:100%}h3{font-weight:500}.wrapper{overflow:hidden;position:relative}.container{max-width:100%;margin:0 auto}header{width:calc(100% - 256px);background-color:#fff;position:absolute;right:0;top:0;display:flex;justify-content:space-between;padding:0 10px;border-width:0 0 1px 0;border-color:#dfe0eb;border-style:solid}.header-nav{display:flex;padding:27px 0 28px 14px;align-items:center}.header-nav__title{margin-right:36px;position:relative;font-size:20px;color:#a4a5b3}.header-nav__title:after{content:"";background:url(img/arr-right.svg) 50% 50% no-repeat;width:23px;height:23px;position:absolute;top:2px;left:80px}.header-user{display:flex;align-items:center;padding:4px 12px 0 0}.header-user__notification{padding-right:29px;border-width:0 1px 0 0;border-style:solid;border-color:#dfe0eb;margin-right:32px}.header-user__user{display:flex;align-items:center}.header-user__user .header-user__name{padding-right:16px;font-size:14px}.header-user__user .header-user__link{padding:3px;border-radius:50%;border:1px solid #dfe0eb}.header-user__user .header-user__link img{display:block}nav{position:absolute;width:256px;height:100%;top:0;background-color:#fff;border-width:0 1px 0 0;border-style:solid;border-color:#dfe0eb}.logo{padding:24px 0 0 32px}.nav-menu{margin-top:48px}.nav-menu__item{padding:0 16px}.nav-menu__link{display:flex;padding:15px 0 17.5px 16px;color:#74768b;position:relative;line-height:23px;align-items:center}.nav-menu__link--img{padding-right:24px;filter:contrast(1%);opacity:.65}.nav-menu__link--numb{display:block;position:absolute;right:16px;color:#fff;background-color:#94a846;padding:3px 8px;border-radius:2px;font-size:12px;line-height:18px;margin-bottom:3px}main{background-color:#f7f8fc;height:826px;padding:104px 24px 0 280px;display:block}main .container{background-color:#fff;border:solid #dfe0eb;border-radius:4px 4px 0 0;border-width:1px 1px 0 1px}.add-products{display:flex;justify-content:space-between;border-width:0 0 1px 0;border-style:solid;border-color:#dfe0eb;padding:24px 24px 22px}.add-products .add-prod-amount{display:flex;align-items:center}.add-products .add-prod-amount .add-prod-title{font-size:20px;margin-right:24px}.add-products .add-prod-amount .add-prod-selection{display:flex}.add-products-btn__remove{border:1px solid #dfe0eb;padding:14px 19px 13px;color:#f64a00;background-color:#fff;font-weight:500;font-size:14px;line-height:19px;margin-right:8px}.add-products-btn__add{border-radius:4px;background-color:#94a846;font-size:16px;font-weight:500;color:#fff;padding:12px 24px;line-height:24px}.select-amount{display:flex;align-items:center;padding:7px 10px 10px 12px;border:1px solid #dfe0eb;border-radius:6px;margin-right:8px}.select-amount__img{width:48px;margin-left:12px}.select-amount__number{color:#74768b;font-size:14px}.main-content{display:flex;padding:24px 22px 0 24px}aside{max-width:272px;margin-right:40px}.filter-header{display:flex;justify-content:space-between;padding:10px 0 12px 0;align-items:center;font-size:16px}.filter-header__title{font-size:16px;margin-right:116px}.filter-header__btn{font-size:14px;color:#f64a00;background-color:transparent}.filter-item{max-width:224px;display:flex;justify-content:space-between;margin:0 auto;background-color:#f7f8fc;align-items:center;padding:4.5px 12px 6px 16px;border-radius:2px;margin-top:4px}.filter-item__name{font-size:14px}.filter-item__remove--img{display:block}.box{margin-top:16px;line-height:24px}.box__header{display:flex;justify-content:space-between;align-items:center;padding:10px 0 12px 0}.box__header--img img{display:block}.box__header--title{font-size:16px}.box__check-box{padding:8px 0 7px 0;display:flex;align-items:center;font-size:14px}.box__check-box--inp{display:none}.box__check-box--lab{border:1px solid #dfe0eb;width:18px;height:18px;border-radius:3px;display:inline-block;margin-right:12px}.box__check-box--lab img{display:block;margin:1px 0 0 1px}.show-btn{padding:8px 73px 7px 73px;background-color:#fff;border:1px solid #dfe0eb;border-radius:4px;margin-top:9px;display:block;max-width:224px;font-size:14px}.item{display:flex;flex-direction:column;width:calc(100% - 265px)}.item-search{display:flex;justify-content:space-between}.item-search-inp{display:flex;align-items:center}.item-search-sort{background-color:#fff;position:relative;color:#74768b;font-size:16px}.item-search-sort:before{content:"";background:url(img/sort.svg) no-repeat;width:18px;height:18px;position:absolute;right:40px}.form{display:flex;border-radius:4px;border:1px solid #dfe0eb;margin-right:12px}.form__search{padding-left:20px;width:360px;background-color:#f7f8fc;line-height:20px;border-width:0 1px 0 0;border-style:solid;border-color:#dfe0eb}.form__bnt{height:38px}.btn-form{width:40px;height:40px;background-color:#fff;padding-top:3px}.btn-multi{border:1px solid #dfe0eb}.item-list{display:flex;flex-wrap:wrap;margin-top:16px}.item-list-elem{border:1px solid #dfe0eb;padding:44px 18px 20px 20px;width:32%;margin:0 0 16px 16px;border-radius:6px}.item-list-elem:nth-of-type(1){margin-left:0}.item-list-elem:nth-of-type(4){margin-left:0}.item-list-elem__img{margin:0 auto;display:block;margin-bottom:38px;width:119px}.item-list-elem__header{max-width:224px;font-size:14px;margin-bottom:6px;line-height:21px}.item-list-elem__text{font-size:12px;color:#74768b;line-height:18px}.item-list-elem__calc{display:flex;max-width:224px;margin-top:16px}.item-list-elem__calc--min{border-radius:4px 0 0 4px}.item-list-elem__calc--plus{border-radius:0 4px 4px 0}.item-list-elem__calc--value{width:72px;text-align:center;background-color:#f7f8fc;border:solid #dfe0eb;border-width:1px 0 1px 0}.item-list-elem__calc--add{background-color:#94a846;border-radius:4px;width:60px;display:inline-block;margin-left:12px;color:#fff}.btn-item{font-size:20px;width:40px;height:40px;background-color:#fff;border:1px solid #dfe0eb}.delete{background:url(img/delete.svg) 50% 50% no-repeat;background-color:#fff;width:60px;height:40px;border:1px solid #dfe0eb}</style>
+	<link rel="stylesheet" type="text/css" href="styles/main.css" media="print" onload="this.media='all'">
+
+
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+</head>
+<body>
+<div class="wrapper">
+	
+	<header>
+		<div class="header-nav">
+			<a href='#' class="header-nav__title">
+				Catalog
+			</a>
+			<a href='#' class="header-nav__subtitle">
+				Bricks
+			</a>
+		</div>
+		<div class="header-user">
+			<div class="header-user__notification">
+				<a class="header-user__link"href="#">
+					<img class="header-user__link--img" src="img/notification.svg" alt="Notification">
+				</a>
+			</div>
+			<div class="header-user__user">
+				<p class="header-user__name">
+					<a class="header-user__name--link" href="#">John Doe</a>
+				</p>
+				<div class="header-user__user">
+					<a class="header-user__link" href="#">
+						<img class="header-user__link--img" src="img/user.png" alt="User">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<nav>
+		<div class="logo">
+			<a class="logo__link" href="#">
+				<img class="logo__link--img" src="img/logo.png" alt="LogoType">
+			</a>
+		</div>
+		<ul class="nav-menu">
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/dashboard.svg" alt="Dashboard"> Dashboard
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/catalog.svg" alt="Catalog"> Catalog
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/kits.svg" alt="Kits"> Kits
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/offers.svg" alt="Offers"> Offers
+				<span class='nav-menu__link--numb'>5</span>
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/messages.svg" alt="Messages"> Messages
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/rating.svg" alt="Rating"> Rating
+				<span class='nav-menu__link--numb'>2</span>
+			</a></li>
+			<li class='nav-menu__item'><a class='nav-menu__link' href="#">
+				<img class='nav-menu__link--img' src="img/settings.svg" alt="Settings"> Settings
+			</a></li>
+		</ul>
+	</nav>
+
+
+	<main>
+		<div class="container">
+			<section class='add-products'>
+				<div class="add-prod-amount">
+					<p class='add-prod-title'>
+						<span>3</span> Products
+					</p>
+					<div class="add-prod-selection">
+						<div class="select-amount">
+							<p class="select-amount__number">10x</p>
+							<img class="select-amount__img" src="img/brick-2.png" alt="brick">
+						</div>
+						<div class="select-amount">
+							<p class="select-amount__number">324x</p>
+							<img class="select-amount__img" src="img/brick-4.png" alt="brick">
+						</div>
+						<div class="select-amount">
+							<p class="select-amount__number">154x</p>
+							<img class="select-amount__img" src="img/brick-5.png" alt="brick">
+						</div>
+					</div>
+				</div>
+				<div class="add-products-btn">
+					<button class="add-products-btn__remove">Remove all</button>
+					<button class="add-products-btn__add">Add to Kit</button>
+				</div>
+			</section>
+			<div class="main-content">
+				<aside>
+
+
+					<div class="filter-header">
+						<h3 class="filter-header__title">Filters</h3>
+						<button class="filter-header__btn">Clear all</button>
+					</div>
+					<div class="filter-item">
+						<p class="filter-item__name">Empty</p>
+						<span class="filter-item__remove"><img class="filter-item__remove--img" src="img/cross.svg" alt="cross"></span>
+					</div>
+					<div class="filter-item">
+						<p class="filter-item__name">Gray</p>
+						<span class="filter-item__remove"><img class="filter-item__remove--img" src="img/cross.svg" alt="cross"></span>
+					</div>
+
+
+					<div class="box">
+						<div class="box__header">
+							<h3 class="box__header--title">Type</h3>
+							<div class="box__header--img"><img src="img/arr-top.svg" alt="arrow"></div>
+						</div>
+						
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb1"><label class="box__check-box--lab" for="cb1"><img src="img/mark.svg" alt="mark"></label>Single(<span>33</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb2"><label class="box__check-box--lab" for="cb2"><img src="img/mark.svg" alt="mark"></label>Empty (<span>231</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb3"><label class="box__check-box--lab" for="cb3"><img src="img/mark.svg" alt="mark"></label>Bonded (<span>23</span>)
+						</div>
+
+
+						<a href='#' class="show-btn">Show more</a>
+
+
+					</div>
+					<div class="box">
+						<div class="box__header">
+							<h3 class="box__header--title">Color</h3>
+							<span class="box__header--img"><img src="img/arr-top.svg" alt="arrow"></span>
+						</div>
+						
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb4"><label class="box__check-box--lab" for="cb4"><img src="img/mark.svg" alt="mark"></label>Red(<span>12</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb5"><label class="box__check-box--lab" for="cb5"><img src="img/mark.svg" alt="mark"></label>Gray (<span>84</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb6"><label class="box__check-box--lab" for="cb6"><img src="img/mark.svg" alt="mark"></label>Coffee (<span>6</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb7"><label class="box__check-box--lab" for="cb7"><img src="img/mark.svg" alt="mark"></label>Chocolate (<span>8</span>)
+						</div>
+						<div class="box__check-box">
+							<input class="box__check-box--inp" type="checkbox" id="cb8"><label class="box__check-box--lab" for="cb8"><img src="img/mark.svg" alt="mark"></label>Green (<span>4</span>)
+						</div>
+					</div>
+				</aside>
+
+
+				<section class="item">
+					<div class="item-search">
+						<div class="item-search-inp">
+							<form class='form'>
+								<input class='form__search' type="text" placeholder='Search product'>
+								<button class="form__bnt btn-form"><img src="img/search.svg" alt="search"></button>
+							</form>
+							<button class="btn-form btn-multi"><img src="img/multisearch.svg" alt="search"></button>
+						</div>
+						
+						<button class="item-search-sort ">Sort</button>
+						
+					</div>
+
+
+
+					<div class="item-list">
+						
+
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-1.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='1'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add">Add</button>
+							</div>
+							
+						</div>
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-2.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='10'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add delete"></button>
+							</div>
+						</div>
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-3.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='1'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add">Add</button>
+							</div>
+						</div>
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-4.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='1'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add">Add</button>
+							</div>
+						</div>
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-5.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='1'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add">Add</button>
+							</div>
+						</div>
+						<div class="item-list-elem">
+							<img class="item-list-elem__img" src="img/brick-6.png" alt="brick">
+							<h3 class="item-list-elem__header">Clinker brick Kerameya KlinKeram Sapphire 5 48%</h3>
+							<p class="item-list-elem__text">Frost resistance: F 150</p>
+							<p class="item-list-elem__text">Emptiness: 48%</p>
+							<p class="item-list-elem__text">Marc: M-300</p>
+							<p class="item-list-elem__text">Type: Empty, single</p>
+							<div class="item-list-elem__calc">
+								<button class="item-list-elem__calc--min btn-item">
+									-
+								</button>
+								<input class="item-list-elem__calc--value" type="text" value='1'>
+								<button class="item-list-elem__calc--plus btn-item">
+									+
+								</button>
+								<button class="item-list-elem__calc--add">Add</button>
+							</div>
+						</div>
+
+
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+</div>
+
+<noscript><link rel="stylesheet" type="text/css" href="styles/main.css"></noscript>
+
+</body>
+</html>
